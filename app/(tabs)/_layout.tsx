@@ -10,9 +10,9 @@ export default function TabLayout() {
         tabBarActiveTintColor: 'black',
       }}>
       <Tabs.Screen
-        name="index"
+        name="home"
         options={{
-          title: 'Tab One',
+          title: 'Anúncios',
           tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
           headerRight: () => (
             <Link href="/modal" asChild>
@@ -24,7 +24,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="two"
         options={{
-          title: 'Tab Two',
+          title: 'Criar Anúncio',
           tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
         }}
       />
